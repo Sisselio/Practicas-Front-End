@@ -1,0 +1,25 @@
+:root{
+    --color-general: #000000;
+    --tamaño-letra-h1: 40px;
+    --tamaño-letra-h1: 30px;
+    --tamaño-letra-h1: 20px;
+    --transicion-normal: #812828;
+}
+h1{
+    color: var(--color-general);
+    font-size: var(--tamaño-letra-h1);
+}
+h2{
+    color: var(--color-general);
+    font-size: var(--tamaño-letra-h1);
+}
+h3{
+    color: var(--color-general);
+    font-size: var(--tamaño-letra-h1);
+}
+button{
+    background-color:var(--color-general);
+}
+button:hover{
+    background-color: var(--transicion-normal);
+}
