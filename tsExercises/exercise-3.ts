@@ -1,12 +1,9 @@
-// Ejercicio 3, Creando más tipos
-// Partiendo del ejercicio anterior, crea un nuevo objeto llamado cat que solamente tenga name, color, canSleep
-// Partiendo del ejercicio anterior, crea un nuevo objeto llamado Snake que solamente tenga canEat, canDrink, canSleep
-interface Cat extends Bird {
-  name: string;
+import { Animal } from "./exercise-1";
+interface Cat extends Animal {
   color: string;
-  canSleep: boolean;
 }
-interface Snake extends Bird {}
+interface Snake extends Animal {}
+
 const cat: Cat = {
   name: "Gatete",
   color: "Black",
