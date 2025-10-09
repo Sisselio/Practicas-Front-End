@@ -4,15 +4,15 @@
 
 interface Bird {
   name: string;
-  canEat: boolean;
-  canDrink: boolean;
+  canEat?: boolean;
+  canDrink?: boolean;
   canSleep: boolean;
-  canFly: boolean;
+  canFly?: boolean;
 }
 
 interface Dog extends Bird {
-  race: Race;
-  age: number;
+  race?: Race;
+  age?: number;
 }
 const bird: Bird = {
   name: "Pajarete",
