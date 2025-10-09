@@ -11,7 +11,7 @@ interface Bird {
 }
 
 interface Dog extends Bird {
-  race: string;
+  race: Race;
   age: number;
 }
 const bird: Bird = {
@@ -25,7 +25,7 @@ const bird: Bird = {
 const dog: Dog = {
   name: "Perrillo",
   race: "Labrador",
-  age: 5,
+  age: 11,
   canEat: true,
   canDrink: true,
   canSleep: true,
